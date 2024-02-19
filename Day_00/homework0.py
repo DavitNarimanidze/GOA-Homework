@@ -3,10 +3,8 @@ from turtle import*
 # lesson1 Homework: Paint House
 
 # Step 1: draw a square
-speed(30)
-width(5)
+width(3)
 color("orange")
-
 forward(200)
 left(90) 
 
@@ -21,6 +19,7 @@ left(90)
 
 forward(200)
 left(90) 
+end_fill()
 
 #End Of Square
 
