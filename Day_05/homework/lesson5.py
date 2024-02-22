@@ -5,7 +5,7 @@ from turtle import*
 # Step 1: draw a square
 
 goto(-100,-80)
-speed(100)
+speed(0)
 width(3)
 color("orange")
 forward(200)
@@ -479,6 +479,7 @@ left(90)
 forward(10)
 end_fill()
 
+# ვარსკვლავები
 penup()
 goto(-300,300)
 pendown()
@@ -574,7 +575,7 @@ while points < 5:
     points = points + 1
 end_fill()
 
-
+# მზე
 penup()
 goto(500,350)
 pendown()
