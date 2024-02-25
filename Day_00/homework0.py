@@ -66,7 +66,7 @@ end_fill()
 
 penup()
 goto(180, 180)
-pendown
+pendown()
 
 color('blue')
 begin_fill()
