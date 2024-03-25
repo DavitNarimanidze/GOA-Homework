@@ -48,9 +48,9 @@
 
 
 
-Number = int(input("Please Enter Number: "))
+# Number = int(input("Please Enter Number: "))
 
-if Number %2 == 0:
-    print("The number is even")
-else:
-    print("the number is Odd")
+# if Number %2 == 0:
+#     print("The number is even")
+# else:
+#     print("the number is Odd")
