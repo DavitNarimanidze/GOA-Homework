@@ -11,7 +11,7 @@ age = 14
 
 print(age)
 
-height = 185.5
+height = 187
 
 print(height)
 

@@ -593,6 +593,4 @@ end_fill()
 hideturtle()
 
 
-
-
 exitonclick()
