@@ -5,7 +5,7 @@ from turtle import*
 # Step 1: draw a square
 
 goto(-100,-80)
-speed(0)
+speed(100)
 width(3)
 color("orange")
 forward(200)
@@ -63,7 +63,7 @@ end_fill()
 
 penup()
 goto(80, 100)
-pendown
+pendown()
 
 color('blue')
 begin_fill()

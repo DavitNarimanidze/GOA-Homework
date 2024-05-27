@@ -3,10 +3,12 @@ from turtle import*
 # lesson1 Homework: Paint House
 
 # Step 1: draw a square
+goto(100,0)
+
 width(3)
 color("orange")
 forward(200)
-left(90) 
+left(90)
 
 
 forward(200)
@@ -39,7 +41,6 @@ end_fill()
 penup()
 goto(200, 200)
 pendown()
-
 color("red")
 begin_fill()
 right(150)
@@ -47,11 +48,9 @@ forward(200)
 left(120)
 forward(200)
 end_fill()
-
 penup()
 goto(20, 180)
 pendown()
-
 color("blue") 
 begin_fill()
 left(30)
@@ -63,11 +62,9 @@ forward(50)
 left(90)
 forward(50)
 end_fill()
-
 penup()
 goto(180, 180)
 pendown()
-
 color('blue')
 begin_fill()
 forward(50)
@@ -78,6 +75,7 @@ forward(50)
 left(90)
 forward(50)
 end_fill()
+
 
 
 
