@@ -1,6 +1,5 @@
 name = "Davit"
 
-
 surname = "Narimanidze"
 
 print(name)
