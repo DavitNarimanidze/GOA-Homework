@@ -583,11 +583,7 @@ speed(30)
 color('orange')
 
 begin_fill()
-points = 1
-while points < 5:
-    forward(200)
-    left(145)
-    points = points + 1
+circle(60)
 end_fill()
 
 hideturtle()

@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.card{
+    background-image: url(day\ 56\ classwortk.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px ;
+}
+
+.card:hover{
+    box-shadow: 0 0 35px;
+    transition: 0.4s;
+}
+
+.content{
+    font-size: 30;
+    margin: 0;
+    color: black;
+}

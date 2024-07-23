@@ -3,7 +3,6 @@ from turtle import*
 # lesson1 Homework: Paint House
 
 # Step 1: draw a square
-goto(100,0)
 
 width(3)
 color("orange")
