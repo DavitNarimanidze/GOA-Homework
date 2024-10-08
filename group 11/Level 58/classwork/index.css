@@ -1,0 +1,13 @@
+.clas {
+    display: flex;
+    justify-content: center; /* Centers items along the main axis */
+    align-items: center;
+}
+
+.classw{
+  align-self: flex-end
+}
+
+.ki{
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+}

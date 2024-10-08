@@ -1,0 +1,16 @@
+* { 
+    font-family: Arial, sans-serif;
+}
+
+#profile { 
+    text-align: center;
+    color: #ffffff;
+}
+
+.active-day { 
+    color: #00CC00;
+}
+
+.inactive-day { 
+    color: #cccccc;
+}
