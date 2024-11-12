@@ -1,0 +1,68 @@
+body { 
+    margin: 0;
+    padding: 0;
+    background-color:  #f1eae4;
+}
+
+.main-card { 
+    display: flex;
+    background-color: #e9e4e3;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px #c3b0a0;
+    width: 850px;
+    height: 650px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.image { 
+    width: 100%;
+    height: auto;   
+}
+
+.product-info { 
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Perfume { 
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+}
+
+h2 { 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin: 10px 0 ;
+}
+
+p { 
+    font-size: 10px;
+    font-style: italic;
+    color: gray;
+}
+
+.price { 
+    font-size: 30px;
+    font-weight: bolder;
+    color: darkgreen;
+}
+
+button { 
+    background-color: darkgreen;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:  0.3s;
+}
+
+button:hover { 
+    background-color: limegreen;
+}

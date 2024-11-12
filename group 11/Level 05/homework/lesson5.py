@@ -1,4 +1,4 @@
-from turtle import*
+from turtle import *
 
 # lesson1 Homework: Paint House
 
