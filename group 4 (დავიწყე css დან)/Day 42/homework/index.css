@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Noto+Sans+KR:wght@100..900&family=Pacifico&family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Noto+Sans+KR:wght@100..900&family=Pacifico&family=Permanent+Marker&family=Protest+Revolution&family=Protest+Strike&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+}
+.header-top { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+}
+.header-top-left { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.header-top-left p{ 
+    font-size: 10px;
+}
+.header-top-right { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    font-size: 15px;
+}
+.header-main { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 15px;
+}
+.navbar-logo { 
+    display: flex;
+    font-size: 10px;
+    color: #82361f;
+    font-family: "Protest Strike", serif;
+}
+
+.nav-links { 
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li { 
+    margin: 0 15px;
+}
+
+.nav-links a { 
+    color: #82361f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 900;
+    transition: 0.3s;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.nav-links a:hover { 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 10px 10px;
+    border-radius: 15px;
+    transform: translateY(-10px);
+    box-shadow: 3px 5px #888888a8;
+}
+.navbar-right button{ 
+    padding: 15px 25px ;
+    margin: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.button1 { 
+    color: white;
+    background-color: #fc6000;
+}
+.button2 { 
+    color: white;
+    background-color: #ff8c00;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 99%;
+    height: 70vh;
+    background-image: url('462557117_1316905906337951_992474494076432187_n.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.content{ 
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 700px;
+    color: white;
+}
+
+.content h1 { 
+    font-family: "Permanent Marker";
+    font-style: normal;
+    font-size: 50px;
+    text-align: left;
+}
+
+.content button { 
+    width: 170px;
+    height: 50px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff8c00;
+    color: white;
+    font-size: large;
+    transition: 0.5s;
+}
+
+.content button:hover { 
+    background-color: #fc6000;
+    transform: scale(1.3);
+}
+footer { 
+    font-family: "Permanent Marker";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    margin: 30px;
+    text-align: center;
+    color: rgba(255, 102, 0, 0.937);
+}
+
+footer button { 
+    margin-top: 10px;
+    padding: 12px 23px;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 111, 0);
+    color: rgb(255, 111, 0);
+    transition: 0.4;
+}
+footer button:hover { 
+    transform: scale(1.2);
+    box-shadow: 0px 5px 10px black;
+}
+
+.item-1 { 
+    font-size: 12px;
+}
+.item-1 img { 
+    width: 180px;
+}
+.item-2{ 
+    font-size: 12px;
+}
+.item-2 img { 
+    width: 180px;
+}
+.item-3 { 
+    font-size: 12px;
+}
+.item-3 img { 
+    width: 180px;
+}
