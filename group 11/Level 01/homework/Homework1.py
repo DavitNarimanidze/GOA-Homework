@@ -14,4 +14,4 @@ height = 187
 
 print(height)
 
-print("მე ვარ " + name + " " + surname + " " + str(age)+ " წლის " + "და " + "ვარ " +  str(height) + " სიმაღლის")
+print(name +  surname + str(age)+ str(height))
