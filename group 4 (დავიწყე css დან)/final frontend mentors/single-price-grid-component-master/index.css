@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #e6f0f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    overflow: hidden;
+  }
+  
+  .top-section {
+    padding: 32px;
+    background-color: white;
+  }
+  
+  .top-section h1 {
+    color: #2ab2af;
+    margin-bottom: 16px;
+  }
+  
+  .highlight {
+    color: #c0df34;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    color: #98a6bd;
+    line-height: 1.6;
+    font-size: 14px;
+  }
+  
+  .bottom-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #2ab2af;
+    color: #ffffff;
+  }
+  
+  .left, .right {
+    padding: 24px;
+  }
+  
+  .left {
+    background-color: #20a29d;
+  }
+  .left h2, .right h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .price {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 8px 0;
+  }
+  
+  .price span {
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  .access {
+    margin-bottom: 16px;
+  }
+  
+  .signup-button {
+    background-color: #c0df34;
+    color: #2ab2af;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    height: 40px;
+  }
+  
+  .signup-button:hover {
+    background-color: #a8c824;
+  }
+  
+  .right {
+    background-color: #2ab2af;
+  }
+  
+  .right ul {
+    list-style: none;
+  }
+  
+  .right li {
+    font-size: 14px;
+    margin: 6px 0;
+  }
+  

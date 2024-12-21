@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social proof section</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+  
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #fafafa;
+        color: #333;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+      }
+  
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+  
+      .header h1 {
+        font-size: 2.8rem;
+        color: #4b2354;
+        font-weight: 700;
+      }
+  
+      .header p {
+        font-size: 1.1rem;
+        color: #666;
+        margin-top: 15px;
+      }
+  
+      .ratings {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 30px 0;
+      }
+  
+      .rating-item {
+        background-color: #f7f1ff;
+        padding: 20px 30px;
+        border-radius: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #4b2354;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+  
+      .testimonials {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-top: 30px;
+      }
+  
+      .testimonial {
+        background-color: #4b2354;
+        color: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      }
+  
+      .testimonial img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        border: 2px solid #fff;
+      }
+  
+      .testimonial h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+  
+      .testimonial span {
+        font-size: 1rem;
+        color: #d8bfff;
+      }
+  
+      .testimonial p {
+        font-size: 1rem;
+        margin-top: 15px;
+      }
+  
+      @media (max-width: 768px) {
+        .ratings {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>10,000+ of our users love our products.</h1>
+        <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+      </div>
+  
+      <div class="ratings">
+        <div class="rating-item">★★★★★ Rated 5 Stars in Reviews</div>
+        <div class="rating-item">★★★★★ Rated 5 Stars in Report Guru</div>
+        <div class="rating-item">★★★★★ Rated 5 Stars in BestTech</div>
+      </div>
+  
+      <div class="testimonials">
+        <div class="testimonial">
+          <img src="https://via.placeholder.com/70" alt="Colton Smith">
+          <h3>Colton Smith</h3>
+          <span>Verified Buyer</span>
+          <p>We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!</p>
+        </div>
+  
+        <div class="testimonial">
+          <img src="https://via.placeholder.com/70" alt="Irene Roberts">
+          <h3>Irene Roberts</h3>
+          <span>Verified Buyer</span>
+          <p>Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.</p>
+        </div>
+  
+        <div class="testimonial">
+          <img src="https://via.placeholder.com/70" alt="Anne Wallace">
+          <h3>Anne Wallace</h3>
+          <span>Verified Buyer</span>
+          <p>Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

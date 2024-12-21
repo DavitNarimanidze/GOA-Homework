@@ -1,0 +1,33 @@
+@media (max-width: 1350px) { 
+    nav { 
+        display: none;
+    }
+    .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 30px;
+    }
+}
+@media (max-width: 1000px) { 
+    .container1 { 
+        flex-direction: column;
+        padding: 30px;
+    }
+    .container1 img { 
+        max-width: 30rem;
+    }
+    .container1-texts-conainer { 
+        justify-content: center;
+        align-items: center;
+    }
+    .container1-texts-conainer h1 { 
+        font-size: 2.8rem;
+        text-align: center;
+    }
+    .container1-texts-conainer p { 
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+}

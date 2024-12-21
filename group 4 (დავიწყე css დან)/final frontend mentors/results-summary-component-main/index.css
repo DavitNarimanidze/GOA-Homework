@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fe;
+  }
+  .container {
+    display: flex;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+
+  }
+  .result {
+    background: linear-gradient(to bottom, #7755ff, #4e21ca);
+    color: white;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 20px 20px 20px 20px;
+    flex: 1;
+  }
+  .result h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .circle .score {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .circle .of-100 {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .result h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .description {
+    font-size: 14px;
+    opacity: 0.8;
+    line-height: 1.5;
+  }
+  .summary {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .summary h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  .reaction {
+    background-color: #fff6f5;
+    color: #ff5c5c;
+  }
+  .memory {
+    background-color: #fffbf2;
+    color: #fdbb36;
+  }
+  .verbal {
+    background-color: #f2fbfa;
+    color: #00bd91;
+  }
+  .visual {
+    background-color: #f3f3ff;
+    color: #4b42d5;
+  }
+  .stat p {
+    font-weight: bold;
+  }
+  .continue-btn {
+    background-color: #303b59;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .continue-btn:hover {
+    background-color: #4a527b;
+  }

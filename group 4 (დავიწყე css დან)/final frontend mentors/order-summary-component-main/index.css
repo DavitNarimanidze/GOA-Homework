@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body {
+    background-color: #e0e8ff;
+    background-image: url(images/pattern-background-desktop.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: #ffffff;
+    width: 360px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    height: 550px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/illustration-hero.svg);
+    background-position: center;
+    background-color: #382ae1;
+    height: 180px;
+}
+
+.header-image {
+    width: 100px;
+    height: auto;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #1f2f56;
+    margin-bottom: 12px;
+}
+
+.description {
+    font-size: 14px;
+    color: #717fa6;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f9ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.plan-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.plan-details {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.plan-title {
+    font-weight: bold;
+    color: #1f2f56;
+    font-size: 16px;
+}
+
+.plan-price {
+    font-size: 14px;
+    color: #717fa6;
+}
+
+.change-link {
+    color: #382ae1;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.change-link:hover {
+    text-decoration: underline;
+}
+
+.payment-button {
+    background-color: #382ae1;
+    color: #ffffff;
+    border: none;
+    padding: 12px 0;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(56, 42, 225, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+    background-color: #766cf1;
+}
+
+.cancel-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #717fa6;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.cancel-link:hover {
+    color: #1f2f56;
+}

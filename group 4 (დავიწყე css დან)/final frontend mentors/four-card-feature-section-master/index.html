@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .header {
+      margin-bottom: 40px;
+    }
+    .header h1 {
+      font-size: 2.5rem;
+      color: #4a4a4a;
+      font-weight: 600;
+    }
+    .header p {
+      font-size: 1.1rem;
+      color: #666;
+      margin-top: 15px;
+    }
+    .card-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    .card-header img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #333;
+    }
+    .card-content {
+      font-size: 1rem;
+      color: #555;
+    }
+    .card-content img {
+      width: 40px;
+      height: 40px;
+      margin-top: 15px;
+    }
+    .card-center { 
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Reliable, efficient delivery</h1>
+      <h2><strong>Powered by Technology</strong></h2>
+      <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful.</p>
+    </div>
+
+    <div class="card-section">
+      <div class="card">
+        <div class="card-header">
+          <img src="https://via.placeholder.com/40" alt="Supervisor">
+          <span class="card-title">Supervisor</span>
+        </div>
+        <p class="card-content">Monitors activity to identify project roadblocks.</p>
+      </div>
+
+      <div class="card-center">
+        <div class="card-header">
+            <img src="https://via.placeholder.com/40" alt="Team Builder">
+            <span class="card-title">Team Builder</span>
+        </div>
+          <p class="card-content">Scans our talent network to create the optimal team for your project.</p>
+        </div>
+        <div class="card-header">
+          <img src="https://via.placeholder.com/40" alt="Karma">
+          <span class="card-title">Karma</span>
+        </div>
+        <p class="card-content">Regularly evaluates our talent to ensure quality.</p>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <img src="https://via.placeholder.com/40" alt="Calculator">
+          <span class="card-title">Calculator</span>
+        </div>
+        <p class="card-content">Uses data from past projects to provide better delivery estimates.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

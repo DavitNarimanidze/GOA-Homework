@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d9e9f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+    padding: 10px 2px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .qr-code img {
+    width: 100%;
+    max-width: 220px;
+    border-radius: 10px;
+  }
+  
+  .card-text h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    color: #1f2b59;
+  }
+  
+  .card-text p {
+    font-size: 14px;
+    color: #7d899d;
+    line-height: 1.6;
+  }
+  
